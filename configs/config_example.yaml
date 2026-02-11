@@ -1,0 +1,31 @@
+# Example configuration file
+# Copy this to your experiment directory and modify as needed
+
+# Experiment settings
+experiment:
+  name: "experiment_name"
+  seed: 42
+  output_dir: "outputs"
+
+# Model settings
+model:
+  architecture: "resnet18"
+  pretrained: true
+
+# Training settings
+training:
+  batch_size: 128
+  learning_rate: 0.001
+  num_epochs: 100
+  optimizer: "adam"
+
+# Data settings
+data:
+  dataset: "cifar10"
+  data_dir: "data"
+  num_workers: 4
+
+# Logging
+logging:
+  use_wandb: false
+  log_interval: 10
