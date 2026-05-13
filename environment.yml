@@ -1,0 +1,36 @@
+name: ood-geometry
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+
+  # Scientific stack
+  - numpy>=1.24
+  - scipy>=1.11
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - pillow>=9.0
+  - tqdm>=4.65
+
+  # Plotting
+  - matplotlib>=3.7
+  - seaborn>=0.12
+
+  # Jupyter
+  - jupyter
+  - ipykernel
+  - nbconvert
+
+  # PyTorch — install the build matching your hardware
+  # See https://pytorch.org/get-started/locally/ for options.
+  # GPU (CUDA 12.1, adjust as needed):
+  - pytorch>=2.1
+  - torchvision>=0.16
+  - pytorch-cuda=12.1   # change to 11.8 or remove for CPU-only
+
+  # Note: this repo also requires the GLUE package (to be released).
+  # See the README for access instructions.

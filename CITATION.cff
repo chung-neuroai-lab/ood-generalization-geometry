@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+type: software
+title: "ood-generalization-geometry"
+abstract: >
+  Code for reproducing the results and figures of
+  "Diagnosing Generalization Failures from Representational Geometry Markers" (ICLR 2026).
+authors:
+  - family-names: Chou
+    given-names: Chi-Ning
+    email: cchou@flatironinstitute.org
+  - family-names: Kirsanov
+    given-names: Artem
+  - family-names: Yang
+    given-names: Yao-Yuan
+  - family-names: Chung
+    given-names: SueYeon
+repository-code: "https://github.com/chung-neuroai-lab/ood-generalization-geometry"
+license: MIT
+year: 2026
+
+preferred-citation:
+  type: conference-paper
+  title: "Diagnosing Generalization Failures from Representational Geometry Markers"
+  authors:
+    - family-names: Chou
+      given-names: Chi-Ning
+    - family-names: Kirsanov
+      given-names: Artem
+    - family-names: Yang
+      given-names: Yao-Yuan
+    - family-names: Chung
+      given-names: SueYeon
+  collection-title: "The Fourteenth International Conference on Learning Representations"
+  year: 2026
+  url: "https://openreview.net/forum?id=c2fQBcoKhU"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2603.01879"
+      description: arXiv preprint
