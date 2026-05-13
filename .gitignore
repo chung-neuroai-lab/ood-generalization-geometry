@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# Downloaded datasets (auto-fetched at runtime)
+data/cifar10/
+
+# Training checkpoints (not committed; example_checkpoint.pth is tracked explicitly)
+checkpoints/
+
+# Generated figure outputs
+figures/
+
+# Paper PDF (linked via arXiv in README)
+*.pdf
+
+# Repo preparation plan (internal working document)
+REPO_PLAN.md
